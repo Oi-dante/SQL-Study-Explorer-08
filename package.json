@@ -4,6 +4,7 @@
   "description": "APi desenvolvida no programa Explorer da Rocketseat",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./src/server.js",
     "start": "node ./src/server.js"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
