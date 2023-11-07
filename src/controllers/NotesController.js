@@ -24,7 +24,7 @@ class NotesController {
       return {
         note_id,
         name,
-        url_id,
+        user_id
       };
     });
 
